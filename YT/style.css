@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&family=Scheherazade+New&family=Yaldevi:wght@200&display=swap');
+body {
+    background-image: url(dot-grid.png);
+}
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    margin-top: -8px;
+    font-size: 55px;
+    font-weight: 600;
+    float: left;
+    /* Nanti ganti font */
+    font-family: 'Caramel', cursive;
+    color: #6B1095;
+}
+
+.logo sub {
+    font-family: 'Megrim', cursive;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 30px;
+}
+ 
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-image: url(dot-grid.png);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(44, 43, 43);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px ;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #6B1095;
+}
+
+#home {
+    padding-top: 30px;
+    margin-left: -40px;
+    padding-bottom: 20px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.column {
+    margin: 20px 0px 50px 20px;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #3B0000;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+    color: #3B0000;
+}
+
+p {
+    padding: 12px 0px;
+}
+
+.btn-lg {
+    background-color: #FFF338;
+    border-radius: 15px;
+    color: rgb(44, 43, 43);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-lg:hover {
+    background-color: #6B1095;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-hm {
+    background-color: #00C1D4;
+    border-radius: 15px;
+    color: #3B0000;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contact {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.for-mid {
+    text-align: center;
+}
+
+.contact {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+
+.card-contact {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.card-contact img {
+    border-radius: 10%;
+}
+
+.card-contact p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #3B0000;
+    text-align: center;
+}
+
+footer {
+    background-color: #334756;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: white;
+}
